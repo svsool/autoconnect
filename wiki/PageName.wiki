@@ -1,6 +1,6 @@
-#summary One-The Auto Connect Project
+= The Auto Connect Project =
 
-= Introduction =
+== Introduction ==
 
 This module provides the handy ability to get a connection string from a client to server,
 without having to do specific configuration. The basic idea is the server broadcast on a
@@ -21,7 +21,7 @@ connection or the server went down. This was very useful and was later expanded 
 clients about other servers that were near by.
 
 
-= Example =
+== Example ==
 
 The "autoconnect.example" contains an example client and server that models the basic idea.
 The "test_server.py" runs a simple XML-RPC server and the "test_client.py" discovers this 
@@ -29,7 +29,6 @@ and connects to call the greet() method.
 
 The unit test case for this project also illustrate how the project is used. Look in the
 "autoconnect.tests" for further details.
-
 
 
 
